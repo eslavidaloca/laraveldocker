@@ -22,3 +22,6 @@ CMD php artisan serve --host=0.0.0.0 --port=8000
 # Host path                                             container path
 # /mnt/                                                 /mnt
 # /mnt/cache/appdata/#Here goes the user#               /config
+
+# Command to build this dockerfile: docker build -t laraveldocker .
+# Command to run this dockerfile: docker run -it -p 8000:8000 laraveldocker      it hasnt worked for me
